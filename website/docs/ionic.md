@@ -51,7 +51,7 @@ constructor(private admob: AdMob) {
     ...
 
     platform.ready().then(() => {
-        admob.banner.show({ id: "test" });
+        this.admob.banner.show({ id: "test" });
     });
 }
 
